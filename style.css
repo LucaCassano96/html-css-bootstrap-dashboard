@@ -5,6 +5,9 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+li{
+    list-style-type: none;
+}
 
 header{
     height: 100px;
@@ -38,6 +41,13 @@ nav{
     background-color: blue;
     overflow-y: auto;
 }
+
+.logo img{
+    width: 100%;
+}
+
+
+
 
 
 @media screen and (max-width: 768px){
