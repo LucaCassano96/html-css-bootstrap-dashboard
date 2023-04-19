@@ -129,16 +129,93 @@
         </nav>
 
 
-        <div class="dashboard-container">
+        <div class="dashboard-container ">
 
 
             <section>
 
-                <div class="row gx-0 border">
+                <div class=" row gx-0">
   
-                    <div class="col-4 bg-info border">Boolean</div>
-                     <div class="col-4 bg-info border">Studenti online</div>
-                     <div class="col-4 bg-info border">Nuovo studente</div>
+                    <div class="bg-primary col-5 p-2">
+
+                        <div class="mb-1"> 
+                            
+                            <a class="fs-4 me-2 text-decoration-none text-light" href="#">Boolean</a> 
+                            <a class="bg-info p-1 rounded text-decoration-none text-light" href="#">piano blaze</a>
+                        
+                        </div>
+
+                        <div> 
+
+                                <a class=" me-1 mb-2 bg-info p-1 rounded text-decoration-none text-light" href="#">3-app</a>
+                                <a class="me-1 mb-2 text-decoration-none text-light" href="#"><i class="fa-solid fa-angles-right"></i></a>
+                                <a class="me-1 mb-2  bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean mobile app</a>
+                                <a class="me-1 mb-2 bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean web app</a>
+                                <a class="me-1 mb-2  bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean blog app</a>
+                            
+                            
+                        </div>
+
+                    </div>
+
+                    <div class="bg-primary col-5 p-2">
+
+                        <div class="fs-5 me-2 my-2 text-light">Studenti online negli ultimi 30 minuti</div>
+                        <div class="fs-5 me-2 my-2  text-light">125</div>
+
+                    </div>
+
+                    <div class="bg-primary col-2 p-3">
+                        
+                        <a class="me-1 mb-2 p-1 text-decoration-none text-light" href="#">Nuovo Studente </a>
+                        
+                        <button class="border border-white bg-transparent  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="text-light fa-solid fa-plus"></i></button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                    <h5 class="offcanvas-title" id="offcanvasRightLabel"><i class="fa-solid fa-plus"></i></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+                                    
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                        <span class="input-group-text" id="basic-addon2">@example.com</span>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label for="basic-url" class="form-label">Your vanity URL</label>
+                                        <div class="input-group">
+                                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
+                                        </div>
+                                        <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
+                                    </div>
+                                    
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text">$</span>
+                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                        <span class="input-group-text">.00</span>
+                                    </div>
+                                    
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                                        <span class="input-group-text">@</span>
+                                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
+                                    </div>
+                                    
+                                    <div class="input-group">
+                                        <span class="input-group-text">With textarea</span>
+                                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+
+                    </div>
 
                 </div>
 
@@ -151,9 +228,108 @@
 
                     <div class="col-md-8 gx-0">
 
-                        <div class="row gx-0"> 
+                        <div class=" p-2 row gx-0 border"> 
 
-                            <div class="col-md-12 bg-warning border">Prossime classi Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio odit explicabo labore officiis ullam rem at sunt modi, iure quisquam tempore placeat beatae minima aut voluptatem, reiciendis distinctio ut nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos recusandae maiores obcaecati ipsa blanditiis temporibus voluptatibus dolor dolorem, harum optio, delectus autem? Impedit, sunt ipsam? Deserunt totam voluptates doloribus enim.</div>
+                            <div class="col-md-12  border p-3">
+
+                                <h2 class="border-bottom p-2">Prossime classi</h2>
+
+                                <table class="table table table-hover ">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col">Nome</th>
+                                        <th scope="col">Data inizio</th>
+                                        <th scope="col">ROI</th>
+                                        <th scope="col">Stato</th>
+                                        <th scope="col">Azioni</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+
+                                      <tr>
+                                        <th scope="row">
+                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
+                                        </th>
+                                        <td>15 feb 2021</td>
+                                        <td>20%</td>
+                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+
+                            </div>
+
+
                             <div class="col-md-12 bg-warning border">Faq Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod doloribus corrupti asperiores debitis aspernatur mollitia cupiditate quidem necessitatibus? Quae qui hic cupiditate natus itaque ad molestias cumque magni quidem fugit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit veritatis minus quas fuga aliquid saepe voluptate non similique. Iure voluptate incidunt rem iusto, vero cumque! Rem, quisquam corrupti. Quisquam, quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea dolor, vitae officiis quisquam, autem laboriosam illum distinctio, incidunt commodi aliquam obcaecati? Similique aliquid, dolor labore reprehenderit commodi officia. Voluptate, eveniet? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eum numquam, sed perspiciatis eos vero totam officiis aspernatur sequi asperiores veritatis esse saepe reiciendis illum, fugiat recusandae adipisci repellat aut.</div>
 
                         </div>
