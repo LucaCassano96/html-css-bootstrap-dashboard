@@ -12,6 +12,7 @@
 
 <body>
 
+<!-- header -->
 
     <header>
 
@@ -27,8 +28,9 @@
             
         </div>
 
+        <!-- search bar -->
 
-        <div class="col-10 col-md-8  p-2" >
+        <div class="col-9 col-md-8  p-2" >
 
             <input class="form-control bg-body-secondary" list="datalistOptions" id="exampleDataList" placeholder=" &#128269; Prova a cercare lezioni di Laravel">
             <datalist id="datalistOptions">
@@ -40,28 +42,33 @@
 
         </div>
 
+        <!-- right icons -->
+
         <div class=" d-sm-none d-md-block col-md-2 d-none ">
 
             <ul class="d-flex m-0 p-2 justify-content-evenly">
 
-                <li><a class="fs-5 p-2" href="#"><i class="fa-solid fa-list text-dark "></i></a> </li>
-                <li><a class="fs-5 p-2" href="#"><i class="fa-solid fa-circle-question text-dark"></i></a> </li>
-                <li><a class="fs-5 p-2" href="#"><i class="fa-solid fa-ellipsis-vertical text-dark"></i></a></li>
-                <li><div class="dropdown">
-                    <button class="dropdown-toggle border-0 bg-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-solid fa-bell text-warning"></i>
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Profilo</a></li>
-                      <li><a class="dropdown-item" href="#">Fatturazione</a></li>
-                      <li><a class="dropdown-item" href="#">Logout</a></li>
-                    </ul>
-                  </div>
+                <li><a class="fs-5 p-2 link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#"><i class="fa-solid fa-list "></i></a> </li>
+                <li><a class="fs-5 p-2 link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#"><i class="fa-solid fa-circle-question"></i></a> </li>
+                <li><a class="fs-5 p-2 link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropdown-toggle border-0 bg-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bell text-warning"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Profilo</a></li>
+                            <li><a class="dropdown-item link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Fatturazione</a></li>
+                            <li><a class="dropdown-item link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="#">Logout</a></li>
+                        </ul>
+                    </div>
                 </li>
 
             </ul>
 
         </div>
+
+                <!--right icon responsive version -->
 
         <div class=" col-1 d-md-none">
 
@@ -93,11 +100,11 @@
 
             <div class=" d-sm-none d-md-block col-md-10 d-none ">
 
-                <ul class="mt-4"> 
+                <ul class="mt-4 "> 
 
-                    <li class="fs-5 mt-2"> <a class="text-light  text-decoration-none" href="#"><i class="fa-solid fa-house"></i> <span class="ms-2">Home</span> </a>  </li>
-                    <li class="fs-5 mt-2"> <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-chart-simple"></i> <span class="ms-2">Stats</span> </a> </li>
-                    <li class="fs-5 mt-2"> <a class="text-light text-decoration-none" href="#"><i class="fa-solid fa-signal"></i> <span class="ms-2">Signals</span> </a> </li>
+                    <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light  text-decoration-none" href="#"><i class="fa-solid fa-house"></i> <span class="ms-2">Home</span> </a>  </li>
+                    <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"><i class="fa-solid fa-chart-simple"></i> <span class="ms-2">Stats</span> </a> </li>
+                    <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"><i class="fa-solid fa-signal"></i> <span class="ms-2">Signals</span> </a> </li>
 
                 </ul>
                 
@@ -106,121 +113,150 @@
 
             <div class=" d-sm-none d-md-block col-md-10 d-none text-center">
                 
-                <div class="fs-5 mb-3"> <a class="text-light text-decoration-none" href="#"> <i class="fa-solid fa-gear"></i> <span  class="ms-2">Admin</span></a></div>
+                <div class="fs-5 mb-3"> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"> <i class="fa-solid fa-gear"></i> <span  class="ms-2">Admin</span></a></div>
             
             </div>
 
+
+            <!-- nav-responsive -->
+
             <div class=" col-8 d-md-none text-center">
 
-                <a class="text-light" href="#"><i class=" mt-2 fa-solid fa-house"></i></a>
-                <a class="text-light" href="#"><i class=" mt-2 fa-solid fa-chart-simple"></i></a>
-                <a class="text-light" href="#"><i class="  mt-2 fa-solid fa-signal"></i></a>
+
+              <ul class="mt-2 p-0 "> 
+
+                <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light  text-decoration-none" href="#"><i class="fa-solid fa-house"></i> </a>  </li>
+                <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"><i class="fa-solid fa-chart-simple"></i></a> </li>
+                <li class="fs-5 mt-2"> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"><i class="fa-solid fa-signal"></i> </a> </li>
+
+              </ul>
+
+        
                 
             </div>
 
 
             <div class=" col-8 d-md-none text-center">
 
-                <a class="text-light" href="#"> <i class=" mb-3 fa-solid fa-gear"></i></a>
+                <ul class=" p-0 "> 
+
+                  <li> <a class="link-opacity-75-hover link-light text-decoration-none" href="#"> <i class=" fa-solid fa-gear"></i></a>  </li>
+                
+                </ul>
 
             </div>
 
             
         </nav>
 
+        <!-- dashboard -->
 
         <div class="dashboard-container ">
 
 
             <section>
 
-                <div class=" row gx-0">
+                <div class="row flex-column-reverse flex-sm-row gx-0  ">
+
+                  <!-- path boolean -->
   
-                    <div class="bg-primary col-5 p-2">
+                    <div class="bg-primary  col-12 col-md-6  p-3">
 
-                        <div class="mb-1"> 
+                        <div class="d-flex mb-2 align-items-center flex-wrap"> 
                             
-                            <a class="fs-4 me-2 text-decoration-none text-light" href="#">Boolean</a> 
-                            <a class="bg-info p-1 rounded text-decoration-none text-light" href="#">piano blaze</a>
-                        
-                        </div>
-
-                        <div> 
-
-                                <a class=" me-1 mb-2 bg-info p-1 rounded text-decoration-none text-light" href="#">3-app</a>
-                                <a class="me-1 mb-2 text-decoration-none text-light" href="#"><i class="fa-solid fa-angles-right"></i></a>
-                                <a class="me-1 mb-2  bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean mobile app</a>
-                                <a class="me-1 mb-2 bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean web app</a>
-                                <a class="me-1 mb-2  bg-info p-1 rounded text-decoration-none text-light" href="#">Boolean blog app</a>
-                            
-                            
-                        </div>
-
-                    </div>
-
-                    <div class="bg-primary col-5 p-2">
-
-                        <div class="fs-5 me-2 my-2 text-light">Studenti online negli ultimi 30 minuti</div>
-                        <div class="fs-5 me-2 my-2  text-light">125</div>
-
-                    </div>
-
-                    <div class="bg-primary col-2 p-3">
-                        
-                        <a class="me-1 mb-2 p-1 text-decoration-none text-light" href="#">Nuovo Studente </a>
-                        
-                        <button class="border border-white bg-transparent  " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="text-light fa-solid fa-plus"></i></button>
-
-                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                <div class="offcanvas-header">
-                                    <h5 class="offcanvas-title" id="offcanvasRightLabel"><i class="fa-solid fa-plus"></i></h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text" id="basic-addon1">@</span>
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-                                    </div>
-                                    
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                        <span class="input-group-text" id="basic-addon2">@example.com</span>
-                                    </div>
-                                    
-                                    <div class="mb-3">
-                                        <label for="basic-url" class="form-label">Your vanity URL</label>
-                                        <div class="input-group">
-                                        <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
-                                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3 basic-addon4">
-                                        </div>
-                                        <div class="form-text" id="basic-addon4">Example help text goes outside the input group.</div>
-                                    </div>
-                                    
-                                    <div class="input-group mb-3">
-                                        <span class="input-group-text">$</span>
-                                        <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
-                                        <span class="input-group-text">.00</span>
-                                    </div>
-                                    
-                                    <div class="input-group mb-3">
-                                        <input type="text" class="form-control" placeholder="Username" aria-label="Username">
-                                        <span class="input-group-text">@</span>
-                                        <input type="text" class="form-control" placeholder="Server" aria-label="Server">
-                                    </div>
-                                    
-                                    <div class="input-group">
-                                        <span class="input-group-text">With textarea</span>
-                                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                                    </div>
-                                </div>
+                            <div>
+                              <a class="fs-4 me-2 text-decoration-none text-light" href="#">Boolean</a> 
                             </div>
 
+                            <div>
+                              <a class="color p-1 rounded link-opacity-75-hover link-light text-decoration-none" href="#">piano blaze</a>
+                            </div>
+              
+                        </div>
+
+                        <div class="d-flex mb-2 align-items-center flex-wrap"> 
+
+                            <div class="me-1 mb-2"><a class=" color p-1 rounded link-opacity-75-hover link-light text-decoration-none" href="#">3-app</a></div>
+                            <div class="me-1 mb-2 "><a class=" text-decoration-none text-light" href="#"><i class="fa-solid fa-angles-right"></i></a></div>
+                            <div class="me-1 mb-2 d-none d-md-block"><a class="color p-1 rounded link-opacity-75-hover link-light text-decoration-none" href="#">Boolean mobile app</a></div>
+                            <div class="me-1 mb-2 d-none d-md-block"><a class="color p-1 rounded link-opacity-75-hover link-light text-decoration-none" href="#">Boolean web app</a></div>
+                            <div class="me-1 mb-2 d-none d-md-block"><a class="color p-1 rounded link-opacity-75-hover link-light text-decoration-none" href="#">Boolean blog app</a></div>
+                            <div class="me-1 mb-2 d-md-none "> <a class="rounded-circle link-opacity-75-hover link-light text-decoration-none color py-1 px-2" href="#"><i class="fa-solid fa-plus"></i></a> </div>
+
+                        </div>
+
                     </div>
+
+
+                     <!-- students -->
+
+                    <div class="bg-primary col-12  col-md-4 p-3">
+
+                        <div class=" me-4 my-2 text-light">Studenti online negli ultimi 30 minuti</div>
+                        <div class=" me- my-2  text-light">125</div>
+
+                    </div>
+                    
+
+                    <!-- new student -->
+
+                    <div class="bg-primary col-12 order-sm-1 col-md-2 p-3">
+                        
+                          <a class="me-1 mb-2 p-1 text-decoration-none text-light" href="#">Nuovo Studente </a>
+                          
+                          <button class="border rounded border-white bg-transparent" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            
+                            <i class="text-light fa-solid fa-plus"></i>
+                          
+                          </button>
+
+                          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <div class="offcanvas-body">
+                                          <div class="input-group mb-3">
+                                              <span class="input-group-text" id="basic-addon1">Nome</span>
+                                              <input type="text" class="form-control"  aria-label="Username" aria-describedby="basic-addon1">
+                                          </div>
+
+                                          <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">Cognome</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                          </div>
+                                          
+                                          <div class="input-group mb-3">
+                                              <input type="text" class="form-control" placeholder="mario.rossi@gmail.com" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                              <span class="input-group-text" id="basic-addon2">Email</span>
+                                          </div>
+
+                                          <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">Password</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                          </div>
+
+                                          <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">Indirizzo</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                          </div>
+
+                                          <div class="input-group mb-3">
+                                            <span class="input-group-text" id="basic-addon1">Città</span>
+                                            <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                          </div>
+
+                                          <button type="button" class="btn btn-primary">Salva</button>
+                                    </div>
+                          </div>
+
+                      </div>
 
                 </div>
 
             </section>
 
+            <!-- organization class -->
 
             <section>
 
@@ -239,96 +275,172 @@
 
                                 <table class="table table table-hover ">
                                     <thead>
-                                      <tr>
-                                        <th scope="col">Nome</th>
-                                        <th scope="col">Data inizio</th>
-                                        <th scope="col">ROI</th>
-                                        <th scope="col">Stato</th>
-                                        <th scope="col">Azioni</th>
-                                      </tr>
+                                        <tr>
+                                            <th scope="col">Nome</th>
+                                            <th scope="col"> <span class="d-none d-lg-block">Data inizio</span> </th>
+                                            <th scope="col"> <span class="d-none d-lg-block">ROI</span> </th>
+                                            <th scope="col">Stato</th>
+                                            <th scope="col">Azioni</th>
+                                        </tr>
                                     </thead>
                                     <tbody>
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                          <tr>
+                                              <th class="d-flex align-items-center" scope="row">
+                                                  <div class="immagine me-2">
+                                                    
+                                                    <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                    
+                                                  </div>
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                                  <span>Classe 75</span>
+                                              </th>
+                                              
+                                              <td> <span class="d-none d-lg-block">15 feb 2021</span> </td>
+                                              <td> <span class="d-none d-lg-block">20%</span> </td>
+                                              <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                              <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                          <tr>
+                                              <th class="d-flex align-items-center" scope="row">
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                                <div class="immagine me-2">
+                                                        
+                                                  <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                  
+                                                </div>
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                                <span>Classe 76</span>
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                              </th>
+                                              
+                                                  <td> <span class="d-none d-lg-block">16 feb 2021</span> </td>
+                                                  <td> <span  class="d-none d-lg-block">20% </span> </td>
+                                                  <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                                  <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
+                                          <tr>
+                                            <th class="d-flex align-items-center" scope="row">
 
-                                      <tr>
-                                        <th scope="row">
-                                            <i class=" me-1 p-2 bg-warning rounded-circle fa-solid fa-code"></i> Classe 75
-                                        </th>
-                                        <td>15 feb 2021</td>
-                                        <td>20%</td>
-                                        <td> <span class="p-1 rounded bg-success"> Done</span> </td>
-                                        <td> <a class="rounded text-decoration-none text-dark " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
-                                      </tr>
-                                    </tbody>
-                                  </table>
+                                              <div class="immagine me-2">
+                                                      
+                                                <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                
+                                              </div>
+
+                                              <span>Classe 77</span>
+
+                                            </th>
+                                            
+                                                <td> <span  class="d-none d-lg-block">17 feb 2021</span> </td>
+                                                <td> <span class="d-none d-lg-block"> 20%</span></td>
+                                                <td> <span class="p-1 rounded text-white  bg-warning"> Process</span> </td>
+                                                <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
+
+                                          <tr>
+                                            <th class="d-flex align-items-center" scope="row">
+
+                                              <div class="immagine me-2">
+                                                      
+                                                <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                
+                                              </div>
+
+                                              <span>Classe 78</span>
+
+                                            </th>
+                                            
+                                                <td> <span class="d-none d-lg-block"> 18 feb 2021</span> </td>
+                                                <td> <span class="d-none d-lg-block"> 20%</span></td>
+                                                <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                                <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
+
+                                          <tr>
+                                              <th class="d-flex align-items-center" scope="row">
+
+                                                <div class="immagine me-2">
+                                                        
+                                                  <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                  
+                                                </div>
+
+                                                <span>Classe 79</span>
+
+                                              </th>
+                                              
+                                                  <td> <span class="d-none d-lg-block">19 feb 2021 </span> </td>
+                                                  <td> <span class="d-none d-lg-block"> 20%</span></td>
+                                                  <td> <span class="p-1 rounded bg-danger"> Failed</span> </td>
+                                                  <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
+
+                                          <tr>
+                                            <th class="d-flex align-items-center" scope="row">
+
+                                              <div class="immagine me-2">
+                                                      
+                                                <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                
+                                              </div>
+
+                                              <span>Classe 80</span>
+
+                                            </th>
+                                            
+                                                <td> <span  class="d-none d-lg-block">20 feb 2021</span> </td>
+                                                <td> <span class="d-none d-lg-block"> 20%</span></td>
+                                                <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                                <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
+
+                                          <tr>
+                                            <th class="d-flex align-items-center" scope="row">
+
+                                              <div class="immagine me-2">
+                                                      
+                                                <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                
+                                              </div>
+
+                                              <span>Classe 81</span>
+
+                                            </th>
+                                            
+                                                <td> <span class="d-none d-lg-block">21 feb 2021</span> </td>
+                                                <td> <span class="d-none d-lg-block">20%</span></td>
+                                                <td> <span class="p-1 rounded bg-danger"> Failed</span> </td>
+                                                <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+                                          </tr>
+
+                                          <tr>
+
+                                            <th class="d-flex align-items-center" scope="row">
+
+                                              <div class="immagine me-2">
+                                                      
+                                                <img class="img-fluid" src="img/class-avatar.jpg" alt="avatar">
+                                                
+                                              </div>
+
+                                              <span>Classe 82</span>
+
+                                            </th>
+                                            
+                                                <td> <span class="d-none d-lg-block">22 feb 2021</span> </td>
+                                                <td> <span class="d-none d-lg-block">20%</span></td>
+                                                <td> <span class="p-1 rounded bg-success"> Done</span> </td>
+                                                <td> <a class="rounded link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover " href="#"><i class="border border-secondary p-1 rounded border  fa-solid fa-pen"></i> <i class="border border-secondary p-1 border rounded fa-solid fa-trash-can"></i> </a> </td>
+
+                                        </tr>
+
+
+
+                                      
+                                      </tbody>
+                                </table>
 
                             </div>
 
@@ -346,7 +458,10 @@
 
                                  <div class="collapse" id="collapseExample">
                                     <div class="card card-body">
-                                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                      Invia un link di invito: gli studenti fanno clic sul link per partecipare.
+                                      Questa funzionalità sarà implementata la prossima settimana. 
+                                      Invia un invito via email: gli studenti possono partecipare dall'email o in Classroom. 
+                                      Condividi il codice del corso: gli studenti inseriscono il codice in Classroom.
                                     </div>
                                   </div>
 
@@ -358,7 +473,8 @@
 
                                  <div class="collapse" id="collapseExample">
                                     <div class="card card-body">
-                                      Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                      A ogni corso che crei è associato un codice. che dovrai condividere con gli studenti perché possano partecipare. Per condividere il codice, incollalo in un'email o scrivilo sulla lavagn
+                                      Tocca Classroom "".Tocca il corsoe poi Impostazioni 
                                     </div>
                                  </div>
 
@@ -395,26 +511,70 @@
                                 <h2 class="border-bottom p-2" >TO DO</h2>
 
                                 <ul class="list-group">
-                                    <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                                      <label class="form-check-label" for="firstCheckbox">Kick off nuove classi</label>
-                                    </li>
-                                    <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                                      <label class="form-check-label" for="secondCheckbox">Lezione su Boostrap 5 in classe #75</label>
-                                    </li>
-                                    <li class="list-group-item">
-                                      <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                                      <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
-                                    </li>
+
+                                      <li class="list-group-item">
+                                        
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                        <label class="form-check-label" for="firstCheckbox">Kick off nuove classi</label>
+
+                                      </li>
+
+                                      <li class="list-group-item">
+
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                        <label class="form-check-label" for="secondCheckbox">Lezione su Boostrap 5 in classe #75</label>
+
+                                      </li>
+
+                                      <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                        <label class="form-check-label" for="thirdCheckbox">Controllare username github studenti</label>
+                                        
+                                      </li>
+
                                   </ul>
 
                             </div>
 
 
+                            <!--graphic  -->
 
+                            <div class="col-md-12 my-3 bg-light-subtle border p-3">
 
-                            <div class="col-md-12 bg-light-subtle border">Grafico Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero dignissimos, quis accusantium perspiciatis natus veniam quod deleniti aliquid nobis placeat itaque quidem, inventore excepturi. Porro id molestiae assumenda odit quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, impedit fuga dolor id, obcaecati laboriosam error eaque ipsam eligendi minima a. Ducimus natus minima quisquam sapiente quo placeat repellat ex.</div>
+                                <div class="border p-3">
+
+                                  <img class="img-fluid" src="img/stats.jpeg" alt="stats">
+
+                                  <h3 class="p-2">Utenti attivi</h3>
+
+                                  <table class="table">
+
+                                      <thead>
+                                          <tr>
+                                            <th class="fw-normal" scope="col">Lista degli utenti attivi in piattaforma nell'ultimo mese</th>
+                                          </tr>
+                                      </thead>
+
+                                      <tbody>
+                                          <tr>
+                                            <th class="fw-normal" scope="row">Gennaio 1200</th>
+                                          </tr>
+                                          <tr>
+                                            <th class="fw-normal" scope="row">Febbraio 800</th>
+                                          </tr>
+                                          <tr>
+                                            <th class="fw-normal" scope="row">Marzo 1500</th>
+                                          </tr>
+                                          <tr>
+                                            <th class="fw-normal" scope="row"><a href="#">Visualizza report approfondimento</a></th>
+                                          </tr>
+                                      </tbody>
+
+                                  </table>
+
+                                </div>
+
+                            </div>
 
 
                         </div>
@@ -424,10 +584,6 @@
 
 
                 </div>
-
-
-
-
 
             </section>
 
@@ -444,4 +600,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </body>
+
 </html>
